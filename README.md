@@ -43,16 +43,21 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
     Open the `my-yabs-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
-    To change your bootswatch theme, edid the import at the top of ```sitewide.scss``
+    To change your bootswatch theme, edit the import at the top of ```sitewide.scss``
 
-    To change your navbar color, change the primary color in the theme's (Sandstone here) _variables.scss to the color of your choice. Then, in the bootswatch.scss change the following to the #primary
-    
-`````    .bg-primary {
-  background-color: $dark !important;
-}`````
+    To change your navbar color, change the primary color in the theme's (Sandstone here) in the sitewide.scss, I have overridden the sandbox theme by doing so:
 
+    ````       
+    ```` .sandstone {
+          font-size: 11px;
+          line-height: 22px;
+          font-weight: 700;
+          text-transform: uppercase;
+  ````      }
 
+`````
 
+Also, read the comments on the sitewide.scss for more ideas
 
 ## 🧐 What's inside?
 

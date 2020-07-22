@@ -13,7 +13,7 @@ body {
 
 header {
    margin-top: 0px;
-   background-color: $primary-color;
+   background-color: $primary;
    color: $complementary-color;
 }
 
@@ -28,7 +28,27 @@ header {
   /* Set the fixed height of the footer here */
   height: 60px;
   line-height: 60px; /* Vertically center the text there */
-  background-color: $primary-color;
+  background-color: $primary;
   color: $complementary-color;
 }
 
+//overriding the classes from Sandstone for navigation colors
+
+.bg-primary {
+  background-color: $primary !important;
+}
+
+.bg-dark {
+  background-color: $primary !important;
+}
+
+.bg-light {
+  background-color: $gray-200 !important;
+}
+
+.sandstone {
+  font-size: 11px;
+  line-height: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
