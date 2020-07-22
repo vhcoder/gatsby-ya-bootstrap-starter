@@ -5,8 +5,12 @@ const SiteInfo = () => {
     query SiteTitleQuery {
       site {
         siteMetadata {
-          title
-        }
+          title,
+            heroContent{
+            title,
+            subTitle
+          }
+        },
       }
     }
   `)

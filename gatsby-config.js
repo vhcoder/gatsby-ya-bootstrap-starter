@@ -3,6 +3,10 @@ module.exports = {
     title: `Gatsby YA Bootstrap Starter`,
     description: `Kick off your next, great Gatsby project with this starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `Vedu Hariths`,
+    heroContent:{
+      title: 'This is the hero component',
+      subTitle: 'this can go below that...'
+    },
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
