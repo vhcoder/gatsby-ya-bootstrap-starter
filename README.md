@@ -45,7 +45,12 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
     To change your bootswatch theme, edid the import at the top of ```sitewide.scss``
 
-    To change your navbar color, change the primary color in the theme's (Sandstone here) _variables.scss to the color of your choice. 
+    To change your navbar color, change the primary color in the theme's (Sandstone here) _variables.scss to the color of your choice. Then, in the bootswatch.scss change the following to the #primary
+    
+`````    .bg-primary {
+  background-color: $dark !important;
+}`````
+
 
 
 
