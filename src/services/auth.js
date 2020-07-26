@@ -10,7 +10,7 @@ const setUser = user =>
 
 
 //this method will use whatever authentication mechanism the application is using (NodeJs/Passport, Firebase, Auth0, AWS etc)
-export const handleLogin = ({ username, password }) => {
+export const handleLogin = ( username, password ) => {
 
   if (username === `admin` && password === `pass`) {
     return setUser({
