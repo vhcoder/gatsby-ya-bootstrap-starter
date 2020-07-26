@@ -59,6 +59,15 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
 Also, read the comments on the sitewide.scss for more ideas
 
+**Authentication**
+
+This starter includes a basic authentication set up that allows for client routes that are protected and only show up when logged in. It has no opinions on the mechanisms for login-- those can be provided by the application that makes use of this starter. 
+*** To make  use of this ***
+The app.js has the protected routes. Add the protected routes there. 
+The actual components are in their usual places. 
+There is an actual plugin that does exactly what the gatsby-node.js code does-- but it is there for transparency. 
+
+
 ## 🧐 What's inside?
 
 A quick look at the top-level files and directories you'll see in a Gatsby project.
